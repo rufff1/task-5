@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('https://coolbackgrounds.io/images/backgrounds/black/black-trianglify-b6181ec2.jpg');
+    object-fit: cover;
+    
+    
+}
+#inp{
+    background-color: rgb(174, 174, 174);
+    color:rgb(86, 86, 86);
+    font-weight: bold;
+}
+
+#todo{
+    border:1px solid rgb(124, 124, 124) ;
+    border-radius: 10px;
+    padding: 15px;
+}
+.box{
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    color: rgb(212, 212, 212);
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+    transition: 0.8s;
+    
+}
+
+.box:hover{
+    transform: scale(1.1);
+}
+
+.box i{
+   cursor: pointer;
+   color:rgb(140, 140, 140);
+}
+
+h3{
+    color:rgb(140, 140, 140);
+}
+
+
